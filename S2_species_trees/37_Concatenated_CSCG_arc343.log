@@ -1,0 +1,483 @@
+IQ-TREE multicore version 1.6.12 for Linux 64-bit built Aug 15 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    methane (AVX512, FMA3, 1510 GB RAM)
+Command: ./iqtree -s 37_Concatenated_CSCG_all_epi_gap10_keep50_arc343.mafft_genafpair_trimal1 -m LG+F+R10+C60 -alrt 1000 -bb 1000 -nt 40
+Seed:    832703 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sat Apr 19 16:16:08 2025
+Kernel:  AVX+FMA - 40 threads (128 CPU cores detected)
+
+Reading alignment file 37_Concatenated_CSCG_all_epi_gap10_keep50_arc343.mafft_genafpair_trimal1 ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 343 sequences with 5820 columns, 5788 distinct patterns
+5317 parsimony-informative, 219 singleton sites, 284 constant sites
+                                                             Gap/Ambiguity  Composition  p-value
+   1  GCA_001563325                                                  6.62%    failed      0.00%
+   2  GCA_001940645                                                 11.37%    failed      0.00%
+   3  GCA_001940655                                                 23.01%    failed      0.00%
+   4  GCA_001940665                                                 10.22%    failed      0.00%
+   5  GCA_005191425                                                  8.09%    failed      0.00%
+   6  GCA_008000775                                                  7.54%    failed      0.00%
+   7  GCA_011365055                                                  6.51%    failed      0.00%
+   8  GCA_013166775                                                  5.96%    failed      3.45%
+   9  GCA_013375455                                                  6.44%    failed      0.00%
+  10  GCA_015520535                                                 17.80%    failed      0.49%
+  11  GCA_016292335                                                 20.50%    failed      0.00%
+  12  GCA_016839515                                                 21.94%    failed      0.00%
+  13  GCA_016839805                                                  6.00%    failed      0.00%
+  14  GCA_016839955                                                 36.48%    failed      0.00%
+  15  GCA_016840025                                                 16.22%    failed      0.13%
+  16  GCA_016840465                                                  8.18%    failed      0.29%
+  17  GCA_018238745                                                 10.69%    failed      0.00%
+  18  GCA_018383855                                                 12.63%    passed     76.55%
+  19  GCA_019056805                                                  8.83%    failed      0.88%
+  20  GCA_019056875                                                 14.24%    passed     12.60%
+  21  GCA_019057385                                                  8.87%    failed      0.00%
+  22  GCA_019058315                                                  5.82%    failed      0.00%
+  23  GCA_019058495                                                 10.07%    passed     84.13%
+  24  GCA_021162905                                                  5.91%    failed      0.00%
+  25  GCA_021498085                                                  6.75%    failed      3.34%
+  26  GCA_027061945                                                  9.74%    passed     39.89%
+  27  GCA_029882335                                                  7.59%    failed      0.00%
+  28  GCA_030587475                                                 10.74%    failed      1.75%
+  29  GCA_030587675                                                  9.66%    passed     19.20%
+  30  GCA_030638685                                                 14.21%    passed     15.50%
+  31  GCA_000008085                                                 22.13%    failed      0.00%
+  32  GCA_000220355                                                 61.36%    failed      0.00%
+  33  GCA_000380905                                                 35.19%    failed      0.00%
+  34  GCA_000402355                                                 22.16%    failed      0.00%
+  35  GCA_000402775                                                 54.07%    failed      0.01%
+  36  GCA_000405245                                                 60.31%    failed      0.42%
+  37  GCA_000830295                                                 21.17%    failed      0.00%
+  38  GCA_001784635                                                 29.79%    failed      0.00%
+  39  GCA_001786395                                                 49.83%    failed      0.00%
+  40  GCA_001871475                                                 24.45%    failed      0.00%
+  41  GCA_001871595                                                 20.77%    failed      0.00%
+  42  GCA_002502135                                                 19.02%    failed      0.00%
+  43  GCA_002688965                                                 28.25%    failed      0.00%
+  44  GCA_002763265                                                 13.32%    failed      0.00%
+  45  GCA_002780595                                                 34.57%    failed      0.00%
+  46  GCA_003553825                                                 25.74%    failed      0.00%
+  47  GCA_003559395                                                 25.12%    failed      0.00%
+  48  GCA_003660925                                                 21.01%    failed      0.00%
+  49  GCA_003660965                                                 32.11%    passed     22.61%
+  50  GCA_003663225                                                 27.41%    failed      0.09%
+  51  GCA_003663345                                                 24.04%    failed      0.02%
+  52  GCA_007133845                                                 43.38%    failed      0.00%
+  53  GCA_009387755                                                 18.44%    failed      0.00%
+  54  GCA_011049195                                                 22.78%    failed      0.00%
+  55  GCA_013154035                                                 20.74%    failed      0.00%
+  56  GCA_013331935                                                 29.36%    failed      0.00%
+  57  GCA_014729335                                                 28.13%    failed      0.00%
+  58  GCA_015522495                                                 51.32%    failed      0.00%
+  59  GCA_016202815                                                 19.11%    failed      0.02%
+  60  GCA_016207225                                                 35.93%    failed      0.00%
+  61  GCA_016212395                                                 16.62%    failed      0.00%
+  62  GCA_016926295                                                 26.12%    failed      0.00%
+  63  GCA_016931175                                                 24.19%    failed      0.00%
+  64  GCA_016932615                                                 24.11%    failed      0.00%
+  65  GCA_016935655                                                 18.21%    failed      3.27%
+  66  GCA_017608775                                                 30.46%    failed      0.00%
+  67  GCA_017610545                                                 15.31%    failed      2.50%
+  68  GCA_018221045                                                 12.90%    failed      0.00%
+  69  GCA_018260655                                                 15.07%    failed      0.00%
+  70  GCA_020723045                                                 18.23%    passed      7.12%
+  71  GCA_020723065                                                 22.84%    failed      0.00%
+  72  GCA_020723935                                                 14.36%    failed      0.00%
+  73  GCA_021158055                                                  8.32%    failed      0.00%
+  74  GCA_021791655                                                 23.08%    failed      0.00%
+  75  GCA_021813385                                                 17.30%    failed      2.11%
+  76  GCA_025920425                                                 15.12%    failed      0.00%
+  77  GCA_025920705                                                  7.10%    failed      0.00%
+  78  GCA_026396455                                                 16.44%    failed      0.05%
+  79  GCA_028710695                                                 31.37%    failed      0.00%
+  80  GCA_028715295                                                 24.85%    failed      0.00%
+  81  GCA_030642125                                                 42.37%    failed      0.00%
+  82  GCA_030753015                                                 11.31%    passed      9.42%
+  83  GCA_902384795                                                 21.44%    failed      0.50%
+  84  ANME2a_UWMA-0185_GCA_012962625                                12.15%    failed      0.13%
+  85  CaMethanoflorens_stordalenmirensis2518645542                   6.53%    failed      0.07%
+  86  CaNuwarchaeum_spEEE104                                        64.30%    failed      3.31%
+  87  CaNuwarchaeum_spEEE17                                         38.57%    failed      2.43%
+  88  GCA_000007185                                                  6.46%    failed      0.00%
+  89  GCA_000016125                                                  3.44%    failed      0.00%
+  90  GCA_000021965                                                  2.96%    failed      0.00%
+  91  GCA_000025665                                                  3.80%    failed      0.00%
+  92  GCA_000166095                                                  4.07%    failed      0.00%
+  93  GCA_000194625                                                  6.12%    failed      0.66%
+  94  GCA_000217715                                                 58.33%    failed      0.00%
+  95  GCA_000235565                                                  6.46%    failed      0.00%
+  96  GCA_000251105                                                  6.22%    failed      3.23%
+  97  GCA_000308215                                                  6.27%    failed      0.31%
+  98  GCA_000337255                                                 52.94%    failed      0.00%
+  99  GCA_000403645                                                 58.37%    failed      0.00%
+ 100  GCA_000496135                                                  3.25%    failed      0.00%
+ 101  GCA_000710615                                                 58.35%    failed      0.00%
+ 102  GCA_000711905                                                  6.20%    failed      0.00%
+ 103  GCA_000762265                                                  3.06%    failed      2.22%
+ 104  GCA_000765475                                                  6.00%    failed      0.00%
+ 105  GCA_000784355                                                  4.00%    failed      2.00%
+ 106  GCA_000966265                                                  6.01%    failed      0.00%
+ 107  GCA_001282785                                                 57.06%    failed      0.00%
+ 108  GCA_001571405                                                  2.96%    failed      0.00%
+ 109  GCA_001587575                                                 12.59%    failed      0.00%
+ 110  GCA_001766815                                                  6.74%    passed     20.50%
+ 111  GCA_001767315                                                 58.35%    failed      0.00%
+ 112  GCA_002010065                                                  6.67%    failed      0.49%
+ 113  GCA_002010305                                                  6.25%    passed     13.02%
+ 114  GCA_002011125                                                  6.75%    failed      0.02%
+ 115  GCA_002011165                                                  6.08%    passed      8.28%
+ 116  GCA_002011395                                                  9.69%    failed      0.00%
+ 117  GCA_002494765                                                 14.42%    passed     15.28%
+ 118  GCA_002502685                                                 25.45%    failed      0.00%
+ 119  GCA_002715545                                                 56.46%    failed      0.00%
+ 120  GCA_002838935                                                 15.62%    failed      0.04%
+ 121  GCA_003009755                                                 52.16%    failed      0.00%
+ 122  GCA_003021085                                                 58.61%    failed      0.00%
+ 123  GCA_003023195                                                 58.88%    failed      0.00%
+ 124  GCA_003034855                                                 13.02%    failed      0.00%
+ 125  GCA_003336485                                                  6.03%    passed     86.09%
+ 126  GCA_003552585                                                  6.10%    failed      0.09%
+ 127  GCA_003555025                                                  6.91%    failed      0.00%
+ 128  GCA_003649715                                                  6.24%    failed      0.00%
+ 129  GCA_003649915                                                 37.84%    passed     16.30%
+ 130  GCA_003660555                                                 12.47%    failed      0.00%
+ 131  GCA_003695745                                                  6.99%    passed      5.89%
+ 132  GCA_004212075                                                  6.27%    failed      0.00%
+ 133  GCA_004377185                                                  6.07%    passed     77.74%
+ 134  GCA_004785955                                                 58.35%    failed      0.00%
+ 135  GCA_005878375                                                 25.00%    failed      0.00%
+ 136  GCA_007118075                                                 65.93%    failed      0.00%
+ 137  GCA_007118975                                                 58.37%    failed      0.00%
+ 138  GCA_007122875                                                 61.53%    failed      0.00%
+ 139  GCA_009619155                                                 12.73%    failed      0.00%
+ 140  GCA_011620765                                                 13.18%    passed      6.80%
+ 141  GCA_012840175                                                  3.32%    failed      0.00%
+ 142  GCA_012960735                                                  9.47%    failed      0.00%
+ 143  GCA_013152845                                                 38.90%    failed      1.71%
+ 144  GCA_013329495                                                 29.85%    failed      0.81%
+ 145  GCA_013415695                                                  6.25%    passed     24.47%
+ 146  GCA_013415865                                                  6.05%    failed      1.72%
+ 147  GCA_014859785                                                  6.15%    passed     35.10%
+ 148  GCA_015660865                                                  2.97%    failed      0.00%
+ 149  GCA_016180755                                                 35.67%    failed      0.00%
+ 150  GCA_016207465                                                 23.14%    failed      0.00%
+ 151  GCA_016207515                                                  6.08%    failed      0.00%
+ 152  GCA_016212785                                                  9.40%    failed      0.30%
+ 153  GCA_016214785                                                  6.15%    failed      0.02%
+ 154  GCA_016874675                                                  7.06%    failed      0.00%
+ 155  GCA_016928095                                                  2.90%    failed      0.00%
+ 156  GCA_017094485                                                 58.35%    failed      0.00%
+ 157  GCA_017357525                                                  3.37%    failed      0.00%
+ 158  GCA_017885655                                                  5.96%    failed      0.32%
+ 159  GCA_018263395                                                 51.58%    failed      0.00%
+ 160  GCA_018609935                                                 31.58%    failed      0.00%
+ 161  GCA_018673655                                                 10.26%    failed      0.00%
+ 162  GCA_018818785                                                  6.19%    passed     63.81%
+ 163  GCA_018903355                                                  6.07%    failed      0.39%
+ 164  GCA_018992685                                                  6.24%    passed     23.72%
+ 165  GCA_019347805                                                  4.45%    failed      0.00%
+ 166  GCA_020027675                                                 11.84%    failed      0.00%
+ 167  GCA_020201485                                                 22.54%    failed      0.00%
+ 168  GCA_020348445                                                  6.32%    passed     65.96%
+ 169  GCA_020356005                                                 21.86%    failed      2.90%
+ 170  GCA_020696345                                                  6.05%    failed      0.01%
+ 171  GCA_020697715                                                  6.48%    failed      3.70%
+ 172  GCA_021129915                                                 26.96%    failed      2.83%
+ 173  GCA_021158325                                                  6.74%    failed      0.00%
+ 174  GCA_021158985                                                 14.66%    failed      0.00%
+ 175  GCA_021159125                                                  8.59%    failed      0.01%
+ 176  GCA_021159385                                                  7.73%    failed      0.00%
+ 177  GCA_021161865                                                 10.40%    passed     15.85%
+ 178  GCA_021162065                                                  7.46%    failed      0.00%
+ 179  GCA_021163965                                                 12.94%    failed      0.00%
+ 180  GCA_021325135                                                 14.47%    failed      0.00%
+ 181  GCA_021802125                                                  7.66%    failed      0.00%
+ 182  GCA_022615805                                                 20.22%    failed      0.00%
+ 183  GCA_023136265                                                  8.42%    passed     10.39%
+ 184  GCA_023256475                                                  3.92%    failed      0.00%
+ 185  GCA_023265395                                                  4.69%    failed      0.00%
+ 186  GCA_023269235                                                 10.05%    failed      0.00%
+ 187  GCA_024170265                                                  2.96%    failed      0.00%
+ 188  GCA_024281315                                                  6.89%    failed      0.11%
+ 189  GCA_024298885                                                 57.08%    failed      0.00%
+ 190  GCA_024508235                                                 58.42%    failed      0.00%
+ 191  GCA_024860865                                                 14.35%    failed      0.94%
+ 192  GCA_026016205                                                 11.55%    passed      9.26%
+ 193  GCA_026242195                                                 57.11%    failed      0.00%
+ 194  GCA_026414225                                                  6.10%    passed     34.63%
+ 195  GCA_027006785                                                  7.63%    failed      3.53%
+ 196  GCA_027051165                                                  6.08%    failed      0.00%
+ 197  GCA_027051265                                                 13.30%    failed      0.00%
+ 198  GCA_027065205                                                 13.25%    failed      0.00%
+ 199  GCA_027249345                                                  9.07%    failed      0.00%
+ 200  GCA_027319545                                                 12.13%    failed      1.46%
+ 201  GCA_027324445                                                  6.96%    failed      0.00%
+ 202  GCA_028279585                                                  6.07%    failed      3.37%
+ 203  GCA_028279645                                                 13.78%    passed      6.32%
+ 204  GCA_028716125                                                 12.04%    failed      0.00%
+ 205  GCA_029210685                                                  6.07%    failed      0.01%
+ 206  GCA_029259185                                                  6.05%    failed      0.00%
+ 207  GCA_029259535                                                  6.08%    failed      0.02%
+ 208  GCA_029338295                                                 58.35%    failed      0.00%
+ 209  GCA_029858465                                                 11.24%    passed     52.17%
+ 210  GCA_029907465                                                 12.16%    passed     78.46%
+ 211  GCA_029934485                                                 13.73%    failed      0.00%
+ 212  GCA_029936395                                                  7.84%    passed     13.89%
+ 213  GCA_030018475                                                  6.12%    failed      0.00%
+ 214  GCA_030019435                                                 11.74%    passed     56.03%
+ 215  GCA_030019485                                                 14.81%    failed      0.01%
+ 216  GCA_030055435                                                  3.09%    failed      2.96%
+ 217  GCA_030594205                                                  7.11%    failed      0.00%
+ 218  GCA_030595765                                                 13.75%    passed     11.35%
+ 219  GCA_030597775                                                 16.87%    failed      0.00%
+ 220  GCA_030603445                                                  6.20%    failed      0.20%
+ 221  GCA_030604065                                                 15.89%    failed      0.00%
+ 222  GCA_030605385                                                 11.70%    failed      3.33%
+ 223  GCA_030606525                                                 18.26%    failed      0.01%
+ 224  GCA_030611785                                                  6.15%    failed      0.01%
+ 225  GCA_030630685                                                 17.01%    failed      3.77%
+ 226  GCA_030643285                                                 34.60%    failed      0.10%
+ 227  GCA_030673205                                                 30.14%    failed      0.23%
+ 228  GCA_030740765                                                  9.18%    passed      7.55%
+ 229  GCA_030756795                                                  2.94%    failed      0.00%
+ 230  GCA_902827225                                                  5.76%    failed      0.00%
+ 231  GCA_937888245                                                  4.55%    failed      2.68%
+ 232  Bathyarchaeota-3300028193_21                                  18.37%    passed     63.89%
+ 233  GCA_000011205                                                  6.01%    failed      0.00%
+ 234  GCA_000145985                                                  7.15%    failed      0.00%
+ 235  GCA_000193375                                                  5.91%    failed      0.00%
+ 236  GCA_000200715                                                  8.69%    failed      0.00%
+ 237  GCA_000258425                                                  6.68%    failed      0.00%
+ 238  GCA_000513855                                                  5.96%    failed      0.02%
+ 239  GCA_000802205                                                  6.07%    failed      0.00%
+ 240  GCA_000813245                                                  5.96%    failed      0.13%
+ 241  GCA_001462395                                                  6.27%    failed      0.00%
+ 242  GCA_001593935                                                  5.96%    failed      0.03%
+ 243  GCA_001775995                                                 14.18%    passed     25.18%
+ 244  GCA_002009985                                                  6.37%    failed      0.00%
+ 245  GCA_002011075                                                 18.63%    failed      0.00%
+ 246  GCA_002254595                                                 54.18%    failed      1.16%
+ 247  GCA_002255045                                                 13.57%    failed      0.53%
+ 248  GCA_002490245                                                  6.07%    passed     13.51%
+ 249  GCA_002494485                                                 26.24%    failed      0.00%
+ 250  GCA_002495315                                                 12.53%    failed      0.00%
+ 251  GCA_003019475                                                  8.04%    failed      0.00%
+ 252  GCA_003431325                                                  6.10%    failed      0.00%
+ 253  GCA_003601775                                                 19.95%    failed      0.00%
+ 254  GCA_003649085                                                 18.54%    passed     19.78%
+ 255  GCA_003649305                                                 12.39%    failed      0.07%
+ 256  GCA_003649685                                                  9.73%    failed      0.00%
+ 257  GCA_003650865                                                 12.37%    failed      0.56%
+ 258  GCA_003661385                                                 16.17%    failed      0.01%
+ 259  GCA_003661605                                                 13.26%    failed      0.00%
+ 260  GCA_003662455                                                 15.29%    failed      0.00%
+ 261  GCA_003662535                                                 36.86%    failed      0.07%
+ 262  GCA_004376975                                                  6.01%    passed     77.82%
+ 263  GCA_005888755                                                  7.29%    failed      0.16%
+ 264  GCA_011040545                                                 25.19%    failed      0.00%
+ 265  GCA_011041895                                                 18.76%    failed      0.02%
+ 266  GCA_013538805                                                  6.36%    failed      0.11%
+ 267  GCA_014646535                                                  5.82%    failed      0.00%
+ 268  GCA_015520395                                                 16.34%    failed      0.00%
+ 269  GCA_015522695                                                  6.31%    failed      0.00%
+ 270  GCA_015661775                                                  6.41%    failed      0.00%
+ 271  GCA_015661855                                                 16.99%    failed      0.00%
+ 272  GCA_016184315                                                  7.80%    failed      0.00%
+ 273  GCA_016882195                                                  7.20%    passed     28.32%
+ 274  GCA_017601245                                                 11.58%    passed      5.50%
+ 275  GCA_017601265                                                 17.65%    failed      0.00%
+ 276  GCA_017857595                                                  6.03%    failed      0.00%
+ 277  GCA_018396395                                                 17.77%    failed      0.62%
+ 278  GCA_018396415                                                  7.94%    failed      4.52%
+ 279  GCA_018396695                                                  6.32%    passed     48.79%
+ 280  GCA_018396725                                                  6.08%    failed      0.00%
+ 281  GCA_018396775                                                  7.78%    failed      0.00%
+ 282  GCA_020345945                                                 35.67%    failed      0.18%
+ 283  GCA_020833055                                                  6.48%    failed      0.00%
+ 284  GCA_021158125                                                  5.96%    passed     40.56%
+ 285  GCA_021158885                                                  9.64%    failed      0.01%
+ 286  GCA_021160575                                                  7.51%    failed      0.39%
+ 287  GCA_021160905                                                  6.94%    failed      0.77%
+ 288  GCA_021161825                                                 14.95%    failed      0.00%
+ 289  GCA_021162925                                                 22.39%    failed      0.03%
+ 290  GCA_021325255                                                  4.16%    failed      0.00%
+ 291  GCA_021848045                                                  7.15%    failed      0.00%
+ 292  GCA_022759185                                                 16.65%    failed      0.00%
+ 293  GCA_022865625                                                  8.04%    failed      0.01%
+ 294  GCA_022865705                                                 12.20%    failed      0.55%
+ 295  GCA_023131225                                                  6.01%    passed     96.18%
+ 296  GCA_023252655                                                  6.07%    failed      0.78%
+ 297  GCA_023256315                                                 17.32%    failed      0.00%
+ 298  GCA_023266955                                                 16.41%    failed      0.00%
+ 299  GCA_023379805                                                  9.98%    failed      0.03%
+ 300  GCA_024256295                                                  6.22%    passed     34.97%
+ 301  GCA_024281195                                                  6.49%    failed      0.01%
+ 302  GCA_024860875                                                  6.24%    failed      0.03%
+ 303  GCA_025058425                                                  9.71%    passed     54.47%
+ 304  GCA_025058595                                                  7.58%    failed      0.00%
+ 305  GCA_025061115                                                  6.22%    failed      0.26%
+ 306  GCA_025340205                                                  6.24%    failed      0.00%
+ 307  GCA_026014905                                                 13.20%    failed      0.00%
+ 308  GCA_026394315                                                 10.89%    passed      8.21%
+ 309  GCA_026413605                                                 14.74%    failed      0.00%
+ 310  GCA_026413615                                                  5.98%    failed      0.00%
+ 311  GCA_026414085                                                  6.39%    failed      0.00%
+ 312  GCA_027030065                                                  6.86%    failed      0.00%
+ 313  GCA_027068385                                                 26.39%    failed      0.00%
+ 314  GCA_027083135                                                  5.89%    failed      0.00%
+ 315  GCA_027297425                                                 15.69%    failed      0.00%
+ 316  GCA_027491455                                                  5.53%    failed      0.00%
+ 317  GCA_027491845                                                 29.12%    failed      0.00%
+ 318  GCA_027491935                                                 29.31%    failed      0.14%
+ 319  GCA_028275385                                                  5.96%    failed      0.00%
+ 320  GCA_028276795                                                  5.95%    failed      0.00%
+ 321  GCA_029258885                                                  6.37%    failed      0.19%
+ 322  GCA_029258915                                                 15.48%    failed      0.00%
+ 323  GCA_029258925                                                 13.06%    failed      0.01%
+ 324  GCA_029259355                                                  6.62%    failed      0.00%
+ 325  GCA_029775965                                                 13.14%    failed      0.90%
+ 326  GCA_029775985                                                  6.29%    failed      2.51%
+ 327  GCA_029775995                                                  9.57%    failed      0.00%
+ 328  GCA_029776125                                                  6.13%    failed      0.00%
+ 329  GCA_029784645                                                 19.88%    failed      0.00%
+ 330  GCA_029856625                                                 10.22%    failed      0.00%
+ 331  GCA_030059665                                                 11.44%    failed      0.00%
+ 332  GCA_030601715                                                 15.55%    failed      0.00%
+ 333  GCA_030615265                                                  5.98%    passed     80.40%
+ 334  GCA_030666185                                                 13.45%    failed      0.03%
+ 335  GCA_937880935                                                  5.98%    failed      0.00%
+ 336  GCA_937890045                                                 54.78%    failed      0.00%
+ 337  GCA_937892815                                                 20.96%    passed     33.99%
+ 338  GCA_937898665                                                  6.12%    failed      0.00%
+ 339  GCA_937906075                                                  5.95%    failed      0.00%
+ 340  GCA_938030905                                                 13.97%    failed      0.00%
+ 341  LGG-1_spades_metabat_bin213                                   24.45%    failed      0.00%
+ 342  Methanodesulfokora_washburnensis_LCB3-Ga0597343_proteins      14.91%    failed      0.00%
+ 343  Methanosuratincola_yellowstonensis_LCB70-Ga0597344_proteins    6.75%    passed     10.24%
+WARNING: 27 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                         16.51%  293 sequences failed composition chi2 test (p-value<5%; df=19)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 6.151 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 832703)...
+Model LG+F+R10+C60 is alias for LG+F+R10+POISSON+G+FMIX{C60pi1:1:0.0169698865,C60pi2:1:0.0211683374,C60pi3:1:0.0276589079,C60pi4:1:0.0065675964,C60pi5:1:0.0141221416,C60pi6:1:0.0068774834,C60pi7:1:0.0146909701,C60pi8:1:0.0067225777,C60pi9:1:0.0018396660,C60pi10:1:0.0102547197,C60pi11:1:0.0230896163,C60pi12:1:0.0057941033,C60pi13:1:0.0125394534,C60pi14:1:0.0204526478,C60pi15:1:0.0070629602,C60pi16:1:0.0117982741,C60pi17:1:0.0068334668,C60pi18:1:0.0433775839,C60pi19:1:0.0318278731,C60pi20:1:0.0222546108,C60pi21:1:0.0102264969,C60pi22:1:0.0150545891,C60pi23:1:0.0134159878,C60pi24:1:0.0148552065,C60pi25:1:0.0239111516,C60pi26:1:0.0128776278,C60pi27:1:0.0222318842,C60pi28:1:0.0247444742,C60pi29:1:0.0214274810,C60pi30:1:0.0115001882,C60pi31:1:0.0076017389,C60pi32:1:0.0130258568,C60pi33:1:0.0093701965,C60pi34:1:0.0467194264,C60pi35:1:0.0441940314,C60pi36:1:0.0322263154,C60pi37:1:0.0402999891,C60pi38:1:0.0150234227,C60pi39:1:0.0104589903,C60pi40:1:0.0214742395,C60pi41:1:0.0154957836,C60pi42:1:0.0101789953,C60pi43:1:0.0227980379,C60pi44:1:0.0123204539,C60pi45:1:0.0066777583,C60pi46:1:0.0004150083,C60pi47:1:0.0344385130,C60pi48:1:0.0113663379,C60pi49:1:0.0127143049,C60pi50:1:0.0124323741,C60pi51:1:0.0262124415,C60pi52:1:0.0064994957,C60pi53:1:0.0103203293,C60pi54:1:0.0142463512,C60pi55:1:0.0215600067,C60pi56:1:0.0199150700,C60pi57:1:0.0038964200,C60pi58:1:0.0113448855,C60pi59:1:0.0128595846,C60pi60:1:0.0117656776}
+WARNING: Both Gamma and FreeRate models were specified, continue with FreeRate model
+
+NOTE: 187766 MB RAM (183 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -1775359.330
+2. Current log-likelihood: -1736630.638
+3. Current log-likelihood: -1735837.840
+4. Current log-likelihood: -1735550.997
+5. Current log-likelihood: -1735355.350
+6. Current log-likelihood: -1735209.227
+7. Current log-likelihood: -1735094.033
+8. Current log-likelihood: -1735005.205
+9. Current log-likelihood: -1734942.218
+10. Current log-likelihood: -1734894.489
+11. Current log-likelihood: -1734855.383
+12. Current log-likelihood: -1734822.535
+13. Current log-likelihood: -1734794.103
+14. Current log-likelihood: -1734770.357
+15. Current log-likelihood: -1734751.152
+16. Current log-likelihood: -1734735.845
+17. Current log-likelihood: -1734723.410
+18. Current log-likelihood: -1734713.574
+19. Current log-likelihood: -1734705.353
+20. Current log-likelihood: -1734698.921
+21. Current log-likelihood: -1734693.412
+22. Current log-likelihood: -1734689.021
+23. Current log-likelihood: -1734685.155
+24. Current log-likelihood: -1734681.843
+25. Current log-likelihood: -1734678.624
+26. Current log-likelihood: -1734675.533
+27. Current log-likelihood: -1734672.294
+28. Current log-likelihood: -1734668.826
+29. Current log-likelihood: -1734665.126
+30. Current log-likelihood: -1734661.484
+31. Current log-likelihood: -1734657.983
+32. Current log-likelihood: -1734654.782
+33. Current log-likelihood: -1734651.991
+34. Current log-likelihood: -1734649.394
+35. Current log-likelihood: -1734647.159
+36. Current log-likelihood: -1734644.985
+37. Current log-likelihood: -1734643.268
+38. Current log-likelihood: -1734641.415
+39. Current log-likelihood: -1734640.022
+40. Current log-likelihood: -1734638.567
+41. Current log-likelihood: -1734637.361
+42. Current log-likelihood: -1734636.312
+43. Current log-likelihood: -1734635.248
+44. Current log-likelihood: -1734634.305
+45. Current log-likelihood: -1734633.443
+46. Current log-likelihood: -1734632.628
+47. Current log-likelihood: -1734632.055
+48. Current log-likelihood: -1734631.501
+49. Current log-likelihood: -1734630.779
+50. Current log-likelihood: -1734630.269
+51. Current log-likelihood: -1734629.951
+52. Current log-likelihood: -1734629.474
+53. Current log-likelihood: -1734629.134
+54. Current log-likelihood: -1734628.788
+55. Current log-likelihood: -1734628.554
+Optimal log-likelihood: -1734628.376
+Mixture weights: 0.129 0.009 0.011 0.018 0.014 0.037 0.006 0.003 0.004 0.013 0.048 0.006 0.007 0.005 0.026 0.004 0.008 0.027 0.032 0.012 0.003 0.000 0.041 0.007 0.017 0.010 0.017 0.018 0.032 0.037 0.032 0.005 0.009 0.035 0.022 0.019 0.016 0.013 0.014 0.002 0.008 0.004 0.007 0.016 0.019 0.011 0.001 0.015 0.018 0.002 0.010 0.002 0.022 0.006 0.031 0.016 0.005 0.002 0.010 0.024 0.003
+Site proportion and rates:  (0.081,0.013) (0.073,0.077) (0.111,0.198) (0.134,0.370) (0.175,0.617) (0.142,0.936) (0.116,1.403) (0.086,2.101) (0.052,3.277) (0.030,5.669)
+Parameters optimization took 55 rounds (115818.785 sec)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+Computing ML distances based on estimated model parameters... 143.496 sec
+Computing BIONJ tree...
+0.207 seconds
+Log-likelihood of BIONJ tree: -1735398.981
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 366.128 second
+Computing log-likelihood of 98 initial trees ... 34663.855 seconds
+Current best score: -1734628.376
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BETTER TREE FOUND at iteration 1: -1733021.367
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -1732789.039
+Iteration 10 / LogL: -1733309.096 / Time: 71h:3m:38s
+Iteration 20 / LogL: -1733080.372 / Time: 83h:13m:36s
+Finish initializing candidate tree set (20)
+Current best tree score: -1732789.039 / CPU time: 173381.019
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 21: -1732658.864
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 23: -1732639.820
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 26: -1732624.526
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 29: -1732602.327
+Iteration 30 / LogL: -1732625.373 / Time: 105h:34m:51s (360h:22m:7s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 33: -1732582.598
+Iteration 40 / LogL: -1732627.254 / Time: 118h:48m:7s (283h:15m:11s left)
+Iteration 50 / LogL: -1732664.462 / Time: 131h:11m:4s (222h:10m:45s left)
+Log-likelihood cutoff on original alignment: -1732793.058
+Iteration 60 / LogL: -1732587.287 / Time: 143h:19m:50s (177h:19m:6s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 62: -1732549.891
+Iteration 70 / LogL: -1732605.937 / Time: 153h:53m:6s (205h:9m:20s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 72: -1732532.160
+Iteration 80 / LogL: -1732655.696 / Time: 165h:30m:47s (192h:43m:41s left)
+Iteration 90 / LogL: -1732730.379 / Time: 175h:4m:26s (161h:17m:13s left)
+Iteration 100 / LogL: -1732592.491 / Time: 185h:17m:49s (134h:44m:53s left)
+Log-likelihood cutoff on original alignment: -1732704.933
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.974
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 110 / LogL: -1732723.846 / Time: 195h:8m:6s (161h:6m:19s left)
+Iteration 120 / LogL: -1732568.201 / Time: 207h:9m:27s (139h:15m:11s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 121: -1732527.966
